@@ -1,13 +1,8 @@
-# OmniOps
+**OmniOps** designed as an all-in-one solution for DevOps engineers. It aims to simplify the day-to-day operations of modern DevOps teams by bringing together essential tools and workflows into a unified platform. It potentially leverages a **Model Context Protocol (MCP)** to allow LLMs or other intelligent agents to manage and operate your DevOps environments, including:
 
-**OmniOps** is an AI-powered DevOps platform built on the principles of the **Model Context Protocol (MCP)**. It leverages **Large Language Models (LLMs)** to deliver intelligent automation, contextual awareness, and guided operations across the entire DevOps lifecycle.
+- **📊 Monitoring**: Providing real-time visibility into the health and performance of systems and applications through integrated observability tools, potentially allowing LLMs to understand and act upon system context via MCP.
+- **🚢 Deployment**: Automating the continuous integration and continuous delivery (CI/CD) pipeline for efficient and reliable application deployments, potentially enabling MCP-driven workflows for more intelligent deployment strategies.
+- **☸️ Kubernetes Management**: Offering tools and dashboards to simplify the management of Kubernetes clusters and the applications running on them, potentially allowing LLMs to interact with the Kubernetes state through an MCP.
+- **🏗️ Infrastructure Provisioning**: Utilizing Terraform to manage and provision cloud infrastructure as code, potentially enabling LLMs to manage and operate this infrastructure by understanding its context through an MCP.
 
-Designed for modern infrastructure teams, OmniOps provides a unified interface to interact with observability data, deployment processes, infrastructure code, and cluster state — all enriched with real-time context derived from LLM reasoning.
-
-## 🚀 Features
-
-- 🧠 **LLM-Driven Insights**: Receive intelligent suggestions, summaries, and alerts based on infrastructure and application context.
-- 📊 **Observability as Context**: Integrate Prometheus, Grafana, and Loki data into LLM context windows for proactive operations.
-- ☸️ **Kubernetes-Aware Agents**: Run autonomous agents that understand cluster state and propose safe changes.
-- 🏗️ **Terraform-Integrated Workflows**: Bridge infrastructure as code with AI for safe provisioning and drift detection.
-- 🔁 **GitOps & CI/CD Context**: Feed your pipeline history and Git changes into LLMs for end-to-end traceability and guidance.
+And more
